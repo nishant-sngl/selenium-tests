@@ -54,6 +54,7 @@ public class AdsFandomTestTemplate extends FandomTestTemplate {
         pageUrl = urlBuilder.getUrlForFandomArticlePage(pageName);
         break;
     }
+    pageUrl = pageUrl.replace("preview.fandom.wikia.com", "newsandstories.fandom.com");
 
     return pageUrl;
   }
