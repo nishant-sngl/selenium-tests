@@ -20,7 +20,7 @@ public class MobileAdsDataProvider {
   @DataProvider
   public static Object[][] allSlots() {
     return new Object[][]{
-        {"project43", "SyntheticTests/Mercury/Slots/AllSlots", "wka.life/_project43//article"}};
+        {"project43", "SyntheticTests/Mercury/Slots/AllSlots", "wka.life/_not_a_top1k_wiki//article"}};
   }
 
   @DataProvider
@@ -31,7 +31,7 @@ public class MobileAdsDataProvider {
   @DataProvider
   public static Object[][] dfpParamsSynthetic() {
     return new Object[][]{
-        {"project43", "SyntheticTests/DfpParams", null, "wka.life/_project43//article",
+        {"project43", "SyntheticTests/DfpParams", null, "wka.life/_not_a_top1k_wiki//article",
          "mobile_top_leaderboard", Arrays.asList("\"s0\":\"life\"",
                                                  "\"s1\":\"_project43\"",
                                                  "\"s2\":\"article\"",
@@ -50,7 +50,7 @@ public class MobileAdsDataProvider {
   @DataProvider
   public static Object[][] dfpParams() {
     return new Object[][]{
-        {"yugioh", "Dark_Magician", "wka.gaming/_yugioh//article", "mobile_top_leaderboard",
+        {"yugioh", "Dark_Magician", "wka.gaming/_top_1k//article", "mobile_top_leaderboard",
          Arrays.asList("\"s0\":\"gaming\"",
                        "\"s0v\":\"games\"",
                        "\"s0c\":[\"anime\"]",

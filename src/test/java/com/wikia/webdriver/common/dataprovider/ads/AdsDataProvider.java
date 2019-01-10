@@ -131,7 +131,7 @@ public class AdsDataProvider {
   @DataProvider
   public static Object[][] dfpParamsSynthetic() {
     return new Object[][]{
-        {WIKI_SPECIAL, "SyntheticTests/DfpParams", null, "wka.life/_project43//article",
+        {WIKI_SPECIAL, "SyntheticTests/DfpParams", null, "wka.life/_not_a_top1k_wiki//article",
          "TOP_LEADERBOARD", Arrays.asList("\"s0\":\"life\"",
                                           "\"s1\":\"_project43\"",
                                           "\"s2\":\"article\"",
@@ -147,7 +147,7 @@ public class AdsDataProvider {
   @DataProvider
   public static Object[][] dfpParams() {
     return new Object[][]{
-        {"yugioh", "Dark_Magician", "wka.gaming/_yugioh//article", "TOP_LEADERBOARD", Arrays.asList(
+        {"yugioh", "Dark_Magician", "wka.gaming/_top_1k//article", "TOP_LEADERBOARD", Arrays.asList(
             "\"s0\":\"gaming\"",
             "\"s0v\":\"games\"",
             "\"s0c\":[\"anime\"]",
