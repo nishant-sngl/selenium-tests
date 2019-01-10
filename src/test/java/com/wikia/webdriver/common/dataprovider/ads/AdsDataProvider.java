@@ -242,7 +242,7 @@ public class AdsDataProvider {
   @DataProvider
   public static Object[][] dfpMEGAParams() {
     return new Object[][]{
-        {"fallout", "Fallout", "wka1b.MR/top_boxad/desktop/oasis-article-ic/_fallout-gaming", "TOP_BOXAD",
+        {"fallout", "Fallout", "wka1b.MR/top_boxad/desktop/oasis-article-ic/_top1k_wiki-gaming", "TOP_BOXAD",
          Arrays.asList(
             "\"s0\":\"gaming\"",
             "\"s0v\":\"games\"",
@@ -267,7 +267,7 @@ public class AdsDataProvider {
             "\"esrb\":\"mature\"",
             "\"theme\":[\"mature\",\"military\",\"postapocalypse\",\"robots\"]"
         ), Arrays.asList("\"loc\":\"top\"", "\"pos\":[\"TOP_BOXAD\",\"TOP_RIGHT_BOXAD\"]", "\"src\":\"gpt\"")},
-        {"civilization", "Category:Browse", "wka1b.MR/top_boxad/desktop/oasis-article/_civilization-gaming", "TOP_BOXAD",
+        {"civilization", "Category:Browse", "wka1b.MR/top_boxad/desktop/oasis-article/_top1k_wiki-gaming", "TOP_BOXAD",
          Arrays.asList("\"s0\":\"gaming\"",
                        "\"s0v\":\"games\"",
                        "\"s0c\":[\"gaming\"]",
