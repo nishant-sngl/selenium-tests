@@ -129,9 +129,9 @@ public class AdsDataProvider {
   }
 
   @DataProvider
-  public static Object[][] dfpParamsSynthetic() {
+  public static Object[][] dfpMEGAParamsTLB() {
     return new Object[][]{
-        {WIKI_SPECIAL, "SyntheticTests/DfpParams", null, "wka.life/_project43//article",
+        {WIKI_SPECIAL, "SyntheticTests/DfpParams", "wka1a.LB/top_leaderboard/desktop/oasis-article/_project43-life",
          "TOP_LEADERBOARD", Arrays.asList("\"s0\":\"life\"",
                                           "\"s1\":\"_project43\"",
                                           "\"s2\":\"article\"",
@@ -328,8 +328,7 @@ public class AdsDataProvider {
 
   @DataProvider
   public static Object[][] providersChainOasis() {
-    return new Object[][]{{WIKI_SPECIAL, "SyntheticTests/ProvidersChain", AdsContent.TOP_LB,
-                           "DirectGpt; RemnantGpt"}};
+    return new Object[][]{{WIKI_SPECIAL, "SyntheticTests/ProvidersChain", AdsContent.TOP_LB, "DirectGpt"}};
   }
 
   @DataProvider

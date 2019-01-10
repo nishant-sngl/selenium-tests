@@ -15,9 +15,9 @@ public class TestDfpParamsPresent extends TemplateNoFirstLoad {
   private static final String LINE_ITEM_ID = "282067812";
   private static final String CREATIVE_ID = "37674198492";
 
-  @Test(dataProviderClass = AdsDataProvider.class, dataProvider = "dfpParamsSynthetic", groups = {
+  @Test(dataProviderClass = AdsDataProvider.class, dataProvider = "dfpMEGAParamsTLB", groups = {
       "DfpParamsPresentSyntheticOasis", "Ads"})
-  public void dfpParamsPresentSyntheticOasis(
+  public void dfpMEGAParamsPresentOasisTLB(
       String wikiName,
       String article,
       String queryString,
